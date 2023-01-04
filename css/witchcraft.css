@@ -1,0 +1,86 @@
+:root {
+    --card-height: 350px;
+  }
+
+.welcome {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+.container {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    padding: var(--spacing-medium);
+}
+div {
+    display: block;
+}
+ 
+.Spells h2, .Spells .main-paragraph {
+    margin-bottom: var(--spacing-large);
+    text-align: center;
+}
+.Spells h2 {
+    padding-top: var(--spacing-large);
+}
+
+.spells-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spells-wrapper {
+    flex-basis: calc(100% / 3);
+    padding: 0 var(--spacing-small);
+    margin-bottom: var(--spacing-small);
+}
+
+.vraji{
+    border: 1px solid gray;
+    padding: var(--spacing-small);
+}
+
+.vraji img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    max-height: 200px;
+    margin-bottom: var(--spacing-large);
+}
+
+.vraji a {
+    font-size:medium;
+    text-align: center;
+    color: white;
+    background-color: rgb(18, 61, 18);
+    border: 1px solid rgb(18, 61, 18);
+    border-radius: 10px;
+    width: 100px;
+}
+h2 {
+    font-size: 1.75rem;
+    color: var(--text-primary);
+}
+
+p {
+    font-size: var(--fs-medium);
+    color: var(--text-dark);
+}
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
